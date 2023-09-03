@@ -1,0 +1,51 @@
+#navBarWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3D518C;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    overflow: hidden;
+    z-index: 10000;
+    height: 7vh;
+}
+
+#navBarWrapper > a > #shcLogo {
+    height: 7vh;
+    margin-left: 1.5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#navBarWrapper > a > #shcLogo:hover {
+    cursor: pointer;
+}
+
+#navBarWrapper > #padding {
+    width: 80%;
+}
+
+#navBarWrapper > #links {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navBarWrapper > #links > h2 > a {
+    transition: all 0.2s ease-in-out;
+    all: unset;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 7vh;
+}
+
+#navBarWrapper > #links > h2 > a:hover {
+    cursor: pointer;
+    color: #FFCC33;
+}

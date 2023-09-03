@@ -1,0 +1,314 @@
+* {
+}
+
+#homeWrapper > #main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#navBarWrapper {
+    transition: all 0.3s ease-in-out;
+    height: 0;
+}
+
+#homeWrapper > #main > #backgroundVideo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    filter: sepia(100%) hue-rotate(210deg) saturate(1000%) brightness(50%) contrast(1.2);
+}
+
+#homeWrapper > #main > #content {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    width: 33vw;
+    margin-top: 35vh;
+    height: 150vh;
+}
+
+#homeWrapper > #main > #content > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+}
+
+#homeWrapper > #main > #content > div > p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #FFFFFF;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+}
+
+.underscore {
+    display: none;
+    position:relative;
+    width: 1vw;
+    background-color: white;
+    height: 1vh;
+    top:-0.14em;
+    margin-left: 1vw;
+}
+
+#homePadding {
+    height: 0vh;
+    transition: all 0.3s ease-in-out;
+    margin-top: 100vh;
+}
+
+#homeWrapper > #content {
+    background-color: #F5F1F9;
+    margin: 0;
+    margin-top: 7vh;
+    padding-top: 3vh;
+}
+
+#content > #about {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+}
+
+#content > #about > #perustajat {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+}
+
+#content > #about > #perustajat > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+    color: #445A9C;
+}
+
+#content > #about > #perustajat > div {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#content > #about > #perustajat a {
+    all: unset;
+    background-color: #445A9C;
+}
+
+#content > #about > #perustajat #perustaja {
+    transition: all 0.25s ease-in-out;
+    width: 20vw;
+    background-color: #445A9C;
+    margin: 0;
+    padding: 0;
+}
+
+#content > #about > #perustajat #perustaja:hover > * {
+    background-color: #445A9C;
+    filter: grayscale(0%);
+    cursor: pointer;
+    color: #FFCC33;
+}
+
+#content > #about > #perustajat #perustaja > h2 {
+    transition: all 0.25s ease-in-out;
+    font-family: 'Roboto Condensed';
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 1.5vw;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    cursor: default;
+    color: #F5F1F9;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+#content > #about > #perustajat #perustaja > p {
+    transition: all 0.25s ease-in-out;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    width: 100%;
+    color: #F5F1F9;
+    font-size: 0.9vw;
+    margin-top: 0;
+}
+
+#content > #about > #perustajat #perustaja > img {
+    transition: all 0.25s ease-in-out;
+    width: 100%;
+    filter: grayscale(100%);
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#carusell > #content {
+    overflow: hidden;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+#content > #item {
+    transition: all 0.25s ease-in-out;
+    border-radius: 10px;
+    min-width: 50vw;
+    height: 40vh;
+    background-color: #445A9C;
+}
+
+#content > #item > h2 {
+    font-family: 'Roboto Condensed';
+    font-weight: 200;
+    font-size: 1.5vw;
+    user-select: none;
+    cursor: default;
+    color: #F5F1F9;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    margin-bottom: 0;
+}
+
+#content > #item > h3 {
+    font-family: 'Fira Sans Condensed';
+    font-weight: 200;
+    color: #FFCC33;
+    font-size: 2vw;
+    user-select: none;
+    cursor: default;
+    color: #F5F1F9;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#content > #item > p {
+    font-family: 'Roboto Condensed';
+    font-weight: 200;
+    font-size: 1vw;
+    cursor: default;
+    color: #F5F1F9;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    height: 17vh;
+}
+
+#content > #item > img {
+    width: 10vw;
+    margin-left: 20vw;
+    margin-top: 1vh;
+}
+
+#content > #about #storyDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 98vw;
+    padding-bottom: 1vh;
+}
+
+#content > #about #kumppanit {
+    width: 40vw;
+    display: block;
+    background-color: #F5F1F9;
+}
+
+#content > #about #kumppanit > h1 {
+    font-family: 'Roboto Condensed';
+    font-weight: 200;
+    font-size: 2vw;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+    color: #445A9C;
+    margin-bottom: 4vh;
+}
+
+#content > #about #kumppanit > div {
+    width: 100%;
+    display: grid;
+}
+
+#content > #about #kumppanit > div > img {
+    width: 20vw;
+    margin-bottom: 5vh;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.25s ease-in-out;
+    padding: 1vh;
+    border-radius: 10px;
+}
+
+#content > #about #kumppanit > div > img:hover {
+    cursor: pointer;
+    background-color: #445A9C;
+}
+
+#content > #about  #story {
+    background-color: #445A9C;
+    width: 35vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 0.1vh;
+    padding-bottom: 2vh;
+}
+
+#content > #about #story > h1 {
+    font-family: 'Roboto Condensed';
+    font-weight: 200;
+    font-size: 2vw;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    cursor: default;
+    color: #F5F1F9;
+    margin-bottom: 1vh;
+}
+
+#content > #about #story > div > p {
+    font-family: 'Roboto Condensed';
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F5F1F9;
+    font-size: 1.2vw;
+    margin-top: 0;
+}

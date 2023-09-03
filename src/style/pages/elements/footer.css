@@ -1,0 +1,60 @@
+#footerWrapper {
+    width: 100%;
+    height: auto;
+    background-color: #3D518C;
+    padding-bottom: 2vh;
+}
+
+#footerWrapper > div {
+    display: flex;
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+
+#footerWrapper > div > div {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#footerWrapper > div > div > * {
+    color: #FFFFFF;
+}
+
+#footerWrapper > div > div > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vh;
+    user-select: none;
+}
+
+#footerWrapper > div > div > h1:hover {
+    cursor: default;
+}
+
+#footerWrapper > div > div > h1 > hr {
+    width: 100%;
+}
+
+#footerWrapper > div > div  h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vh;
+}
+
+#footerWrapper > div > div  h2:hover {
+    cursor: pointer;
+    color: #FFCC33;
+}
+
+#footerWrapper > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.7vw;
+    color: white;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}

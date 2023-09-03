@@ -1,1 +1,0 @@
-# The landing page of Sunny Harbor Consulting
