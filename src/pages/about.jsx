@@ -19,47 +19,15 @@ export default function AboutPage(language = "fi") {
         >
           <div className="w-full pl-6 mt-5 lg:pl-32 md:pl-10 lg:mt-20 md:mt-10">
             <h1 className="text-4xl italic font-extrabold text-black font-poppins md:text-7xl lg:text-7xl">
-              Sisu Eriksson
-            </h1>
-            <h2 className="w-5/6 font-bold text-black font-raleway md:text-2xl md:w-full">
-              Frontend kehitäjä ja markkinointi
-            </h2>
-            <p className="text-black font-poppins font-light italic text-lg md:text-5xl lg:text-4xl md:mt-5 lg:w-full w-[64vw]">
-              "Hyvin suunniteltu on jo puoliksi tehty"
-            </p>
-            <p className="hidden text-black font-poppins font-extralight lg:text-4xl lg:mt-10 lg:block">
-              Sisu on monitaitoinen osaaja, joka toimii yrityksessä sekä
-              frontend developerina että markkinoinnin ja toimitusjohtajuuden
-              tehtävissä. Hänellä on vankka tekninen osaaminen
-              frontend-kehityksessä ja laaja kokemus markkinoinnista. Sisu
-              pyrkii luomaan vaikuttavia digitaalisia kokemuksia ja edistämään
-              yrityksen menestystä monipuolisesti.
-            </p>
-          </div>
-          <div className="flex lg:mr-10 lg:w-2/3 w-full justify-end lg:mt-0 md:mt-[-150px] mt-[-110px]">
-            <img
-              alt="A handsome man"
-              className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
-              src="./src/assets/founders/transparent_sisu.webp"
-            ></img>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="bg-black m-0 p-0 flex justify-between flex-col lg:flex-row lg:h-[90vh] md:min-h-[67.5vh] min-h-[38vh] lg:justify-between grid-cols-1 md:grid-cols-2"
-          href="https://www.linkedin.com/in/leon-g-732b31204/"
-        >
-          <div className="w-full h-full pl-6 mt-5 lg:pl-32 md:pl-10 lg:mt-20 md:mt-10">
-            <h1 className="text-4xl italic font-extrabold text-white font-poppins md:text-7xl lg:text-7xl">
               Leon Gustafsson
             </h1>
-            <h2 className="w-5/6 font-bold text-white font-raleway md:text-2xl md:w-full">
+            <h2 className="w-5/6 font-bold text-black font-raleway md:text-2xl md:w-full">
               Frontend kehittäjä ja suunnittelija
             </h2>
-            <p className="text-white font-poppins font-light italic text-lg md:text-5xl lg:text-4xl md:mt-5 lg:w-full w-[60vw]">
-              "Päämääränä on käyttäjälle huomattava helpotus arjessa."
+            <p className="text-black font-poppins font-light italic text-lg md:text-5xl lg:text-4xl md:mt-5 lg:w-full w-[64vw]">
+              "Mä haluun tehä se, mä teen se"
             </p>
-            <p className="hidden text-white font-poppins font-extralight lg:text-4xl lg:mt-10 lg:block">
+            <p className="hidden text-black font-poppins font-extralight lg:text-4xl lg:mt-10 lg:block">
               Leon on kokenut frontend-kehittäjä, joka yhdessä suunnittelijan
               kanssa luo vaikuttavia käyttöliittymiä. Hänen taitonsa
               teknologiassa ja kykynsä yhdistää käytettävyys ja visuaalinen
@@ -74,6 +42,38 @@ export default function AboutPage(language = "fi") {
               alt="A handsome man"
               className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
               src="./src/assets/founders/transparent_leon.webp"
+            ></img>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          className="bg-black m-0 p-0 flex justify-between flex-col lg:flex-row lg:h-[90vh] md:min-h-[67.5vh] min-h-[38vh] lg:justify-between grid-cols-1 md:grid-cols-2"
+          href="https://www.linkedin.com/in/leon-g-732b31204/"
+        >
+          <div className="w-full h-full pl-6 mt-5 lg:pl-32 md:pl-10 lg:mt-20 md:mt-10">
+            <h1 className="text-4xl italic font-extrabold text-white font-poppins md:text-7xl lg:text-7xl">
+              Sisu Eriksson
+            </h1>
+            <h2 className="w-5/6 font-bold text-white font-raleway md:text-2xl md:w-full">
+              Frontend kehitäjä ja markkinointi
+            </h2>
+            <p className="text-white font-poppins font-light italic text-lg md:text-5xl lg:text-4xl md:mt-5 lg:w-full w-[60vw]">
+              "Unelmointi on tärkeä osa onnea ja menestystä, mutta sen voima paljastuu vasta, kun sitoudumme tavoittelemaan niitä"
+            </p>
+            <p className="hidden text-white font-poppins font-extralight lg:text-4xl lg:mt-10 lg:block">
+              Sisu on monitaitoinen osaaja, joka toimii yrityksessä sekä
+              frontend developerina että markkinoinnin ja toimitusjohtajuuden
+              tehtävissä. Hänellä on vankka tekninen osaaminen
+              frontend-kehityksessä ja laaja kokemus markkinoinnista. Sisu
+              pyrkii luomaan vaikuttavia digitaalisia kokemuksia ja edistämään
+              yrityksen menestystä monipuolisesti.
+            </p>
+          </div>
+          <div className="flex lg:mr-10 lg:w-2/3 w-full justify-end lg:mt-0 md:mt-[-150px] mt-[-110px]">
+            <img
+              alt="A handsome man"
+              className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
+              src="./src/assets/founders/transparent_sisu.webp"
             ></img>
           </div>
         </a>

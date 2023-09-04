@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
 import capsuleImg from "../assets/capsule.png";
 import earthImg from "../assets/earth.webp";
 import AboutPage from "../pages/about.jsx";
@@ -14,7 +13,6 @@ const motto = [
   "Apps.",
   "Software & Hardware.",
   "We do it all.",
-  "We are Sunny Harbor Consulting.",
 ];
 
 let sectionOne = null;
@@ -134,7 +132,7 @@ export default function HomePage(language = "fi") {
             id="titleDesc"
             className="font-normal text-center cursor-default select-none font-raleway sm:text-2xl lg:text-3xl text-p"
           ></p>
-          <div className="flex justify-around hidden w-full mt-8 font-mono text-2xl lg:visible">
+          {/* <div className="flex justify-around hidden w-full mt-8 font-mono text-2xl lg:visible">
             <button 
             onClick={() => document.getElementById('aboutUsWrapper').scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" })}
             className="px-2 text-center text-white bg-black">Tiimi</button>
@@ -144,7 +142,7 @@ export default function HomePage(language = "fi") {
             <button 
             onClick={() => document.getElementById('Partners').scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}
             className="px-2 text-center text-white bg-black">Kumppanit</button>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="content" className="mx-0 bg-white">

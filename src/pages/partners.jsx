@@ -22,7 +22,7 @@ export default function PartnersPage() {
                 className='w-full lg:w-1/2 lg:px-10 hover:cursor-pointer'> 
             <div className=''>
                 <h1 className='text-2xl italic font-bold text-center underline lg:text-6xl md:text-5xl font-poppins lg:mt-20 md:mt-8'>Korjausvelkalaskuri</h1>
-                <p className='px-3 mt-3 text-lg font-light font-poppins lg:mt-10 md:mt-6 lg:text-3xl md:text-2xl lg:px-0 md:px-20'> 
+                <p className='px-3 mt-3 text-lg font-light text-center md:text-left font-poppins lg:mt-10 md:mt-6 lg:text-3xl md:text-2xl lg:px-0 md:px-20'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illo corporis quidem amet quae possimus tempora asperiores non, corrupti iusto officia quo facere assumenda. Aliquam possimus temporibus asperiores consequatur enim.
                 </p>
             </div>
