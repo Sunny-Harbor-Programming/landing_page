@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
 import capsuleImg from "../assets/capsule.png";
 import earthImg from "../assets/earth.webp";
-import AboutPage from "../pages/about.jsx";
-import ContactPage from "../pages/contact.jsx";
-import PartnersPage from "../pages/partners.jsx";
+import AboutPage from "./about.jsx";
+import ContactPage from "./contact.jsx";
+import PartnersPage from "./partners.jsx";
 import SHCFooter from "../elements/shcFooter";
 
 const motto = [
@@ -119,7 +119,7 @@ export default function HomePage(language = "fi") {
           className="top-0 z-0 object-cover w-full p-0 m-0"
         >
           {/* <source src="./src/assets/HomePageBackground.mp4" type="video/mp4" /> */}
-          <source src="./src/assets/earth.mp4" type="video/mp4" />
+          <source src="/assets/earth.mp4" type="video/mp4" />
         </video>
         <div
           id="content"

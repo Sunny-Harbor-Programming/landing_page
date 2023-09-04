@@ -41,7 +41,7 @@ export default function AboutPage(language = "fi") {
             <img
               alt="A handsome man"
               className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
-              src="./src/assets/founders/transparent_leon.webp"
+              src="/assets/founders/transparent_leon.webp"
             ></img>
           </div>
         </a>
@@ -73,7 +73,7 @@ export default function AboutPage(language = "fi") {
             <img
               alt="A handsome man"
               className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
-              src="./src/assets/founders/transparent_sisu.webp"
+              src="/assets/founders/transparent_sisu.webp"
             ></img>
           </div>
         </a>
@@ -108,7 +108,7 @@ export default function AboutPage(language = "fi") {
             <img
               alt="A handsome man"
               className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
-              src="./src/assets/founders/transparent_victor2.png"
+              src="/assets/founders/transparent_victor2.png"
             ></img>
           </div>
         </a>
@@ -140,7 +140,7 @@ export default function AboutPage(language = "fi") {
             <img
               alt="A handsome man"
               className="object-contain w-1/2 aspect-1:4 lg:w-full md:w-3/7"
-              src="./src/assets/team/transparent_alex.webp"
+              src="/assets/team/transparent_alex.webp"
             ></img>
           </div>
         </a>
